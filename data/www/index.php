@@ -57,7 +57,6 @@ ul{
 	right:0;
 	text-align: right;
 	padding-right: 40px;
-	padding-top: 2em;
 }
 a{
 	color: #7B7CC8;
@@ -69,6 +68,8 @@ a{
 <div id="h">piston</div>
 <div id="contact">
 <ul>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
 <li><a href="https://darkengine.io/">who</a></li>
 </ul>
 </div>
