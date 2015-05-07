@@ -8,7 +8,7 @@ ob_start();
 require('random_image.php');
 $image = ob_get_clean();
 ?>
-<title>darkengine</title>
+<title>piston</title>
 <style>
 html{
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(<?php echo '"'.$image.'"'; ?>) no-repeat center center fixed;
@@ -57,6 +57,7 @@ ul{
 	right:0;
 	text-align: right;
 	padding-right: 40px;
+	padding-top: 2em;
 }
 a{
 	color: #7B7CC8;
@@ -65,19 +66,17 @@ a{
 </style>
 </head>
 <body>
-<div id="h">darkengine</div>
+<div id="h">piston</div>
 <div id="contact">
 <ul>
-<li><a href="mailto:simon@piston.pw">Email</a></li>
-<li><a href="https://github.com/darkengine-io">Github</a></li>
-<li><a href="https://linkedin.com/in/darkengine">LinkedIn</a></li>
+<li><a href="https://darkengine.io/">who</a></li>
 </ul>
 </div>
 <div id="info">
 <ul>
-<li>infosec</li>
-<li>embedded systems</li>
-<li>asm</li>
+<li>email</li>
+<li>pbx</li>
+<li>vpn</li>
 </ul>
 </div>
 </body>
